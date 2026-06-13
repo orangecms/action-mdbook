@@ -4,7 +4,7 @@ exports.Linkcheck = void 0;
 const MdPlugin_1 = require("./MdPlugin");
 class Linkcheck extends MdPlugin_1.MdPlugin {
     constructor() {
-        super("Michael-F-Bryan/mdbook-linkcheck", "linkcheck-version", "mdbook-linkcheck", "unknown-linux-gnu");
+        super("marxin/mdbook-linkcheck2", "linkcheck-version", "mdbook-linkcheck2", "unknown-linux-gnu");
     }
 }
 exports.Linkcheck = Linkcheck;
